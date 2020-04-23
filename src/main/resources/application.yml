@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: load-test
+  profiles:
+    active: stage
+xs
+---
+spring:
+  profiles: dev
+
+---
+spring:
+  profiles: stage
+
+---
+spring:
+  profiles: prod
+
